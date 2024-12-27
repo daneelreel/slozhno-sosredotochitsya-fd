@@ -239,6 +239,7 @@
   font-size: var(--line-height-text);
   line-height: 23.4px;
   font-weight: var(--font-weight-bold);
+  margin-block-end: 10px;
 }
 
 .gallery {
