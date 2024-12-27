@@ -242,36 +242,38 @@
 }
 
 .gallery {
+  display: grid;
   overflow: hidden;
   width: 100%;
+  gap: 10px;
 }
 
 .gallery__item__sunset {
-  margin-block-start: 10px;
+  
   width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
   height: auto; /* Сохраняем соотношение сторон изображение */
 }
 
 .gallery__item__ice-cream {
-  margin-block-start: 10px;
+  
   width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
   height: auto; /* Сохраняем соотношение сторон изображение */
 }
 
 .gallery__item__tape {
-  margin-block-start: 10px;
+  
   width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
   height: auto; /* Сохраняем соотношение сторон изображение */
 }
 
 .gallery__item__books {
-  margin-block-start: 10px;
+  
   width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
   height: auto; /* Сохраняем соотношение сторон изображение */
 }
 
 .gallery__item__street {
-  margin-block-start: 10px;
+  
   width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
   height: auto; /* Сохраняем соотношение сторон изображение */
 }
@@ -489,10 +491,14 @@
   }  
 
   .gallery {
-    height: 1091px;
+    height: 1048px;
   }
 
   .footer {
     block-size: 768px;
+  }
+
+  .footer__container {
+    font-size: 157px;
   }
 }
