@@ -145,7 +145,7 @@
   display: grid;
   grid-template-rows: fit-content() fit-content() fit-content();
   padding: var(--main-gap);
-  margin-block-start: 96px;
+  margin-block-start: 30px;
 }
 
 .h2__container {
@@ -235,7 +235,7 @@
 }
 
 .h2__container__last-of-type {
-  color: var(--main-title-color);
+  color: var(--second-title-color);
   font-size: var(--line-height-text);
   line-height: 23.4px;
   font-weight: var(--font-weight-bold);
@@ -317,7 +317,7 @@
   }
 
   .main__content {
-    margin-block-start: 50px;
+    margin-block-start: 40px;
     padding: 20px;
   }
 
@@ -459,7 +459,6 @@
 
   .paragraph__container {
     margin-block-start: 110px;
-    
     max-width: 50%;
     justify-self: end;
     height: fit-content;
@@ -480,6 +479,10 @@
     margin-block-start: 0px;
     grid-column: 3/3;
   }  
+
+  .h2__container {
+    width: 300px;
+  }
 
   .advices {
     grid-template-columns: fit-content(984px);
