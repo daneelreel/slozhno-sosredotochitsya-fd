@@ -11,7 +11,7 @@
   --main-title-color: #FF0070;
   --description-text-color: #F1B2CE;
   --second-title-color: #000028; 
-  --main-font-family: 'IBM Plex Mono';
+  --main-font-family: 'IBM Plex Mono', sans-serif;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
   --line-height-text: 18px;

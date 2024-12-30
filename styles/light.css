@@ -21,7 +21,7 @@
   --main-title-color: #353430;
   --description-text-color: #353430;
   --second-title-color: #353430; 
-  --main-font: 'IBM Plex mono';
+  --main-font-family: 'IBM Plex mono', sans-serif;
   --bg-img: url(../images/cover-image-light.png);
 }
 
@@ -40,10 +40,10 @@
     --main-title-color: #353430;
     --description-text-color: #353430;
     --second-title-color: #353430; 
-    --main-font: 'IBM Plex mono';
+    --main-font-family: 'IBM Plex mono', sans-serif;
     --bg-img: url(../images/cover-image-light.png);
   }
-  .theme-dark .rec__container {
+  .rec__container {
     display: none;
   }
 }
