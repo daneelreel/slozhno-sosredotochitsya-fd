@@ -389,6 +389,15 @@
     align-self: flex-start;
   } 
 
+  .section-why {
+    grid-template-columns: 1fr 2.06fr;
+  }
+
+  .section-concentrate {
+    display: grid;
+    grid-template-columns: 1fr 2.06fr;
+  }
+
   .section-causes {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: fit-content 1fr;
