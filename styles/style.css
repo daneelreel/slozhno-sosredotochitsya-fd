@@ -213,6 +213,7 @@
 }
 
 .gallery {
+  margin-block-start: -20px;
   display: grid;
   gap: 10px;
   height: fit-content;
@@ -307,6 +308,7 @@
   }
 
   .gallery {
+    margin-block-start: 0px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3, auto);
     gap: 20px;
@@ -374,7 +376,7 @@
   }
 
   .minor-title {
-    max-width: 300px;
+    max-width: 315px;
   }
 
   .section-causes .card:first-of-type {
@@ -387,6 +389,14 @@
 
   .section-causes .card:last-of-type {
     grid-row: 2/2;
+  }
+
+  .post-minor-title {
+    max-height: 35%;
+  }
+
+  .section__list {
+    margin-block-start: -50px;;
   }
 
   .footer {
