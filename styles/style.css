@@ -84,7 +84,7 @@
 
 .header__theme-menu-button:hover {
   cursor: pointer;
-  border: 1px solid var(--accent-color-hover);
+  border: 1px solid var(--accent-color-button-hover);
   padding-inline: 12px;
   padding-block-end: 4px;
 }
@@ -111,7 +111,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--paragraph-bg-color);
+  border-block-end: 1px solid var(--accent-color);
 }
 
 .main-title  {
@@ -126,7 +126,7 @@
   margin-block-start: 55px;
   align-content: center;
   color: var(--second-title-color);
-  height: 100%;
+  height: fit-content;
   max-height: 117px;
 }
 
@@ -141,8 +141,7 @@
 
 .section {
   display: grid;
-  width: 100%;
-  max-width: 375px;
+  width: fit-content;
   padding: var(--main-gap);
   margin-block-start: 30px;
   gap: 50px;
@@ -184,7 +183,7 @@
 }
 
 .description__link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--description-text-color);
 }
 
 .description__link:focus {
@@ -216,12 +215,14 @@
 .gallery {
   display: grid;
   gap: 10px;
+  height: fit-content;
   justify-content: center;
 }
 
 .gallery__items {
   width: 100%;
-  max-width: 355px; /* Устанавливаем ширину изображения 100% от контейнера */
+  height: 100%;
+  object-fit: cover;
 }
 
 .footer {
@@ -229,6 +230,7 @@
   display: grid;
   position: relative;
   align-content: center;
+  justify-content: center;
   height: 100vh;     
   min-height: 668px;
   padding: var(--main-gap);
@@ -268,7 +270,6 @@
   .section {
     margin-block-start: 40px;
     padding: 20px;
-    max-width: 768px;
     gap: 80px;
   }
 
@@ -306,20 +307,9 @@
   }
 
   .gallery {
-    width: 100%;
-    display: grid;
-    max-height: 780px;
-    height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     gap: 20px;
-  }
-
-  .gallery__items {
-    width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
-    max-width: 480px;
-    object-fit: cover;
-    height: 100%;
   }
 
   .gallery__item__sunset {
@@ -351,7 +341,6 @@
     padding: 20px;
     margin-block-start: 40px;
     min-height: 1024px;
-    justify-content: center;
   }
 }
 
@@ -375,16 +364,9 @@
   }
 
   .paragraph__container {
-    margin-block-start: 110px;
-    max-width: 50%;
-    justify-self: end;
-    height: fit-content;
+    margin-block-start: 110px;;
     align-self: flex-start;
   } 
-
-  .section {
-    max-width: 1024px;
-  }
 
   .section-causes {
     grid-template-columns: 1fr 1fr 1fr;
@@ -392,7 +374,6 @@
   }
 
   .minor-title {
-    width: 100%;
     max-width: 300px;
   }
 
@@ -406,16 +387,6 @@
 
   .section-causes .card:last-of-type {
     grid-row: 2/2;
-  }
-
-  .gallery {
-    max-height: 1048px;
-    height: 100%;
-  }
-  
-  .gallery__items {
-    width: 100%; /* Устанавливаем ширину изображения 100% от контейнера */
-    max-width: 650px;
   }
 
   .footer {

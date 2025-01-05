@@ -18,6 +18,7 @@
   --paragraph-bg-color: #FF8DCB;
   --accent-color: #353430;
   --accent-color-hover: rgba(255, 141, 203, 0.4);
+  --accent-color-button-hover: rgba(53, 52, 48, 0.4);
   --main-title-color: #353430;
   --description-text-color: #353430;
   --second-title-color: #353430; 
@@ -37,6 +38,7 @@
     --paragraph-bg-color: #FF8DCB;
     --accent-color: #353430;
     --accent-color-hover: rgba(255, 141, 203, 0.4);
+    --accent-color-button-hover: rgba(53, 52, 48, 0.4);
     --main-title-color: #353430;
     --description-text-color: #353430;
     --second-title-color: #353430; 
